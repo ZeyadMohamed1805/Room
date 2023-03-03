@@ -591,10 +591,6 @@ video {
   grid-column: span 2 / span 2;
 }
 
-.row-span-1 {
-  grid-row: span 1 / span 1;
-}
-
 .flex {
   display: flex;
 }
@@ -607,12 +603,8 @@ video {
   height: 5rem;
 }
 
-.h-full {
-  height: 100%;
-}
-
-.min-h-screen {
-  min-height: 100vh;
+.h-screen {
+  height: 100vh;
 }
 
 .w-1\/2 {
@@ -637,10 +629,6 @@ video {
 
 .grid-cols-\[2fr_2fr_1fr_2fr\] {
   grid-template-columns: 2fr 2fr 1fr 2fr;
-}
-
-.grid-rows-\[2fr_1fr\] {
-  grid-template-rows: 2fr 1fr;
 }
 
 .flex-col {
@@ -686,6 +674,15 @@ video {
 .bg-customBlack {
   --tw-bg-opacity: 1;
   background-color: hsl(0 0% 0% / var(--tw-bg-opacity));
+}
+
+.bg-red-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(220 38 38 / var(--tw-bg-opacity));
+}
+
+.bg-\[url\(\'\.\.\/\.\.\/Images\/desktop-image-hero-1\.jpg\'\)\] {
+  background-image: url('../../Images/desktop-image-hero-1.jpg');
 }
 
 .px-10 {
@@ -735,11 +732,6 @@ video {
 .text-customBlack {
   --tw-text-opacity: 1;
   color: hsl(0 0% 0% / var(--tw-text-opacity));
-}
-
-.text-customDarkGrey {
-  --tw-text-opacity: 1;
-  color: hsl(0 0% 27% / var(--tw-text-opacity));
 }
 
 .text-customGrey {

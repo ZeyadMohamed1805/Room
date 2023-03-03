@@ -1,7 +1,6 @@
 const Room = () => {
     return (
-        <section className="col-span-1 row-span-1">
-            <img src={require("../../Images/image-about-dark.jpg")} alt="Room" className="w-full" />
+        <section className="col-span-1 bg-cover bg-no-repeat bg-center" style={{backgroundImage: `url(${require("../../Images/image-about-dark.jpg")})`}}>
         </section>
     )
 }
