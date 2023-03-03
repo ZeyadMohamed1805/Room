@@ -1,6 +1,6 @@
 const Shop = () => {
     return (
-        <section className="col-span-2 px-20 flex flex-col justify-center gap-5 relative">
+        <section className="col-span-2 px-20 flex flex-col justify-center gap-8 relative">
             <h1 className="text-customBlack font-bold text-5xl">Discover innovative ways to decorate</h1>
             <p className="text-customGrey">
                 We provided unmatched quality, comfort, and style for property

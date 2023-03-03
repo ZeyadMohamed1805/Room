@@ -1,6 +1,8 @@
 const Room = () => {
     return (
-        <section>Room</section>
+        <section className="col-span-1">
+            <img src={require("../../Images/image-about-dark.jpg")} alt="Room" />
+        </section>
     )
 }
 
