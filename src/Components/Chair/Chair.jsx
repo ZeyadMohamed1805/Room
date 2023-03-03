@@ -1,6 +1,8 @@
 const Chair = () => {
     return (
-        <section>Chair</section>
+        <section className="col-span-1 row-span-1">
+            <img src={require("../../Images/image-about-light.jpg")} alt="Chair" className="w-full h-full" />
+        </section>
     )
 }
 
