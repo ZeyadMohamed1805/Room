@@ -559,7 +559,20 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.text-customGrey {
+.h-52 {
+  height: 13rem;
+}
+
+.w-screen {
+  width: 100vw;
+}
+
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.text-red-500 {
   --tw-text-opacity: 1;
-  color: hsl(0 0% 63% / var(--tw-text-opacity));
+  color: rgb(239 68 68 / var(--tw-text-opacity));
 }
