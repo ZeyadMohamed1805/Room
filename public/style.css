@@ -591,6 +591,10 @@ video {
   grid-column: span 2 / span 2;
 }
 
+.row-span-1 {
+  grid-row: span 1 / span 1;
+}
+
 .flex {
   display: flex;
 }
@@ -603,8 +607,8 @@ video {
   height: 5rem;
 }
 
-.h-screen {
-  height: 100vh;
+.min-h-screen {
+  min-height: 100vh;
 }
 
 .w-1\/2 {
@@ -613,10 +617,6 @@ video {
 
 .w-1\/3 {
   width: 33.333333%;
-}
-
-.w-full {
-  width: 100%;
 }
 
 .w-screen {
@@ -629,6 +629,10 @@ video {
 
 .grid-cols-\[2fr_2fr_1fr_2fr\] {
   grid-template-columns: 2fr 2fr 1fr 2fr;
+}
+
+.grid-rows-\[2fr_1fr\] {
+  grid-template-rows: 2fr 1fr;
 }
 
 .flex-col {
@@ -659,8 +663,8 @@ video {
   gap: 1.25rem;
 }
 
-.gap-8 {
-  gap: 2rem;
+.gap-6 {
+  gap: 1.5rem;
 }
 
 .border-b-2 {
@@ -676,23 +680,32 @@ video {
   background-color: hsl(0 0% 0% / var(--tw-bg-opacity));
 }
 
-.bg-red-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(220 38 38 / var(--tw-bg-opacity));
+.bg-cover {
+  background-size: cover;
 }
 
-.bg-\[url\(\'\.\.\/\.\.\/Images\/desktop-image-hero-1\.jpg\'\)\] {
-  background-image: url('../../Images/desktop-image-hero-1.jpg');
+.bg-center {
+  background-position: center;
 }
 
-.px-10 {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
+.bg-no-repeat {
+  background-repeat: no-repeat;
 }
 
-.px-20 {
-  padding-left: 5rem;
-  padding-right: 5rem;
+.fill-customGrey {
+  fill: hsl(0, 0%, 63%);
+}
+
+.fill-customBlack {
+  fill: hsl(0, 0%, 0%);
+}
+
+.p-10 {
+  padding: 2.5rem;
+}
+
+.p-20 {
+  padding: 5rem;
 }
 
 .pb-1 {
@@ -756,4 +769,22 @@ video {
 .hover\:bg-customGrey:hover {
   --tw-bg-opacity: 1;
   background-color: hsl(0 0% 63% / var(--tw-bg-opacity));
+}
+
+.hover\:bg-customDarkGrey:hover {
+  --tw-bg-opacity: 1;
+  background-color: hsl(0 0% 27% / var(--tw-bg-opacity));
+}
+
+.hover\:fill-customGrey:hover {
+  fill: hsl(0, 0%, 63%);
+}
+
+.hover\:text-customGrey:hover {
+  --tw-text-opacity: 1;
+  color: hsl(0 0% 63% / var(--tw-text-opacity));
+}
+
+.group:hover .group-hover\:fill-customGrey {
+  fill: hsl(0, 0%, 63%);
 }
