@@ -1,7 +1,7 @@
 const Shop = () => {
     return (
-        <section className="col-span-2 p-20 flex flex-col justify-center gap-6">
-            <h1 className="text-customBlack font-bold text-5xl">Discover innovative ways to decorate</h1>
+        <section className="col-span-2 p-10 flex flex-col justify-center gap-6">
+            <h1 className="text-customBlack font-bold text-5xl max-lg:inline-block">Discover innovative ways to decorate</h1>
             <p className="text-customGrey">
                 We provided unmatched quality, comfort, and style for property
                 owners across the country. Our experts combine forms and

@@ -7,7 +7,7 @@ import Chair from "../Chair/Chair";
 
 const Main = () => {
     return (
-        <main className="min-h-screen w-screen grid grid-cols-[2fr_2fr_1fr_2fr] grid-rows-[2fr_1fr]">
+        <main className="min-h-screen w-screen grid grid-cols-[2fr_2fr_1fr_2fr] grid-rows-[2fr_1fr] max-lg:flex max-lg:flex-col relative">
             <Nav />
             <Home />
             <Shop />
